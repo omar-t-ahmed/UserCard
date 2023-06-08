@@ -1,0 +1,71 @@
+* {
+	vertical-align: baseline;
+	font-weight: inherit;
+	font-family: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+.bigcontainer {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container{
+	font-family: 'Roboto', sans-serif;
+}
+.profile {
+	border: 2px solid #14a2b8;
+	display: flex;
+    background-color: #14a2b8;
+    width: 800px;
+    height: 100px;
+}
+.info {
+	border: 2px solid grey;
+    background-color: whitesmoke;
+	width: 780px;
+    height: 200px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
+.rows {
+	height: 150px;
+	display: flex;
+	padding-top: 50px;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.userimage {
+    width: 100px;
+    height: 100px;
+	position: relative;
+	top: 50px;
+	left: 20px;
+}
+.editprofile, .location {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	width: 100px;
+}
+.marker {
+	width: 15px;
+}
+.gear {
+	width: 20px
+}
+.name {
+	font-weight: 600;
+	font-size: xx-large;
+}
+a {
+	color: blue;
+}
+.newyork {
+	font-size: large;
+}
